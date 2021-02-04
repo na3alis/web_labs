@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align: center;">Анкета</h1>
+
+        <p style="text-align: center;">Заповніть анкету для вступу в клуб "Віртуальна бібліотека"</p>
+
+        <form action="">
+            <!-- Ім'я -->
+            <p>
+                <label for="full_name"><b>Введіть ім'я:</b> </label><br>
+                <input type="text" id="full_name" name="full_name" placeholder="ПІП">
+            </p>
+
+            <!-- Пароль -->
+            <p>
+                <label for="password"><b>Введіть пароль:</b></label>
+                <input type="text" id="password" name="password">
+            </p>
+
+            <!-- стать -->
+            <p>
+                <label for="gender"><b>Стать:</b></label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Чоловік</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жінка</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Інше</label>
+            </p>
+
+            <!-- Статус -->
+            <p><b>Рід заннять:</b><br>
+                <input type="checkbox" id="status1" name="status1" value="student">
+                <label for="status1">Студент(ка)</label><br>
+
+                <input type="checkbox" id="status2" name="status2" value="schoolchild">
+                <label for="status2">Школяр(ка)</label><br>
+
+                <input type="checkbox" id="status3" name="status3" value="postgraduate">
+                <label for="status3">Аспірант(ка)</label><br>
+
+                <input type="checkbox" id="status4" name="status4" value="employee">
+                <label for="status4">Працюю</label><br>
+
+                <input type="checkbox" id="status5" name="status5" value="not_employee">
+                <label for="status5">Не працюю</label><br><br>
+            </p>
+
+            <!-- Книги -->
+            <p>
+                <b>Які книги любите читати:</b><br>
+                <select name="select" size="4" multiple>
+                    <option value="s1">Науково-пізнавальні</option>
+                    <option value="s2">Фантастика</option>
+                    <option value="s3">Пригодницькі</option>
+                    <option value="s4">Історичні</option>
+                    <option value="s5">Детективи</option>
+                    <option value="s6">Казки</option>
+                    <option value="s7">Автобіографії</option>
+                    <option selected value="s8">Романи</option>
+                    <br><br>
+                </select>
+            </p>
+            <!-- Думка -->
+            <p>
+                <b> Що читаєте зараз? <br>
+                    Поділіться взаженнями від прочитаного: <br>
+                </b>
+                <textarea name="" id="" cols="50" rows="5" placeholder="Почни тут!" title="Сміливіше!"></textarea>
+            </p>
+
+            <!-- Доп інфо -->
+            <p>
+                Додаткову інформацію можна знайти на сайті:
+                <a href="http://www.redroom.com">www.redroom.com</a><br>
+            </p>
+
+            <!-- Кнопки -->
+            <p align="center">
+                <button><b>Вімінити</b></button>
+                <button><b>Підтвердити</b></button>
+            </p>
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
