@@ -1,0 +1,63 @@
+.container{
+    margin: auto;
+    width: 1000px;
+}
+
+.layer1{
+    border: 1px solid #ccc;
+    height: 200px;
+    width: 500px;
+    overflow: scroll;
+    background-color: #fc0;
+    padding: 7px;
+}
+
+.layer2{
+    width: 50%;
+    background-color: #ff0;
+    padding: 5px;
+}
+
+.task2{
+    height: 150px;
+    width: 150px;
+    border: 10px solid red;
+    border-radius: 200px 200px 200px 200px;
+}
+
+.t{
+    height: 100px;
+    width: 100px;
+    border: 10px solid red;
+    border-radius: 200px 200px 200px 200px;
+    margin: 15px;
+}
+
+.st{
+    height: 50px;
+    width: 50px;
+    border: 10px solid red;
+    border-radius: 200px 200px 200px 200px;
+    margin: 15px;
+}
+
+.menu{
+
+}
+ul{
+    
+}
+
+li{
+    font-size: 30px;
+    list-style: none;
+    color: blue;
+    margin: 5px;
+    border: 3px solid blue;
+    width: 300px;
+    padding: 10px;
+}
+
+li:hover{
+    font-weight: bold;
+}
