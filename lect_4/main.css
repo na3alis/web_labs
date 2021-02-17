@@ -1,0 +1,31 @@
+h1, h2{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    size: 15;
+}
+
+b{
+    color: red;
+    font-weight: bold;
+}
+
+i{
+    color: blue;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+}
+
+.paragraph{
+
+    width: 400px;
+    background-color: #f7efef;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 40px;
+}
