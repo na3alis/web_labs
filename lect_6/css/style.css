@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+html {
+  background: black;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ligth_mod {
+  float: right;
+  padding: 10px 10px 0px 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.info {
+  color: coral;
+}
+
+.botton {
+  background-color: coral;
+}
+
+.nav {
+  text-transform: uppercase;
+}
+.nav .nav_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  text-decoration: none;
+  color: coral;
+  transition: color 0.25s linear;
+}
+.nav .nav_link:hover {
+  color: white;
+}
+
+.header {
+  height: 100px;
+  padding: 20px;
+}
+.header .header_inner {
+  display: flex;
+  justify-content: space-between;
+  color: coral;
+}
+.header .header_inner .header_logo {
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: coral;
+  flex: 0 0 auto;
+}
+.footer .footer_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer_inner .footer_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 50px 0px 0px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.25s linear;
+}
+.footer .footer_inner .footer_link:hover {
+  color: white;
+}
